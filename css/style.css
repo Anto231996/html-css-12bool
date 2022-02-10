@@ -1,82 +1,24 @@
-p{
-    font-size: 10px;
-    color: black;
-}
-
-div.row div{
+div.row div, div.row-offset div{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: .5px;
+}
+
+div.row div{
+    margin: 1px;
+}
+
+div.row-offset div{
+    margin-bottom: 2px;
 }
 
 .container{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 [class*="col-"]{
     background-color:green;
-    height: 33px;
-}
-
-.col-xs-1{
-    width: calc((100% / 12) * 1 - 1px);
-    max-width: calc((100% / 12) * 1);
-}
-
-.col-xs-2{
-    width: calc((100% / 12) * 2 - 1px);
-    max-width: calc((100% / 12) * 2);
-}
-
-.col-xs-3{
-    width: calc((100% / 12) * 3 - 1px);
-    max-width: calc((100% / 12) * 3);
-}
-
-.col-xs-4{
-    width: calc((100% / 12) * 4 - 1px);
-    max-width: calc((100% / 12) * 4);
-}
-
-.col-xs-5{
-    width: calc((100% / 12) * 5 - 1px);
-    max-width: calc((100% / 12) * 5);
-}
-
-.col-xs-6{
-    width: calc((100% / 12) * 6 - 1px);
-    max-width: calc((100% / 12) * 6);
-}
-
-.col-xs-7{
-    width: calc((100% / 12) * 7 - 1px);
-    max-width: calc((100% / 12) * 7);
-}
-
-.col-xs-8{
-    width: calc((100% / 12) * 8 - 1px);
-    max-width: calc((100% / 12) * 8);
-}
-
-.col-xs-9{
-    width: calc((100% / 12) * 9 - 1px);
-    max-width: calc((100% / 12) * 9);
-}
-
-.col-xs-10{
-    width: calc((100% / 12) * 10 - 1px);
-    max-width: calc((100% / 12) * 10);
-}
-
-.col-xs-11{
-    width: calc((100% / 12) * 11 - 1px);
-    max-width: calc((100% / 12) * 11);
-}
-
-.col-xs-12{
-    width: calc((100% / 12) * 12 - 1px);
-    max-width: calc((100% / 12) * 12);
+    height: 30px;
 }
 
 .inside-box{
